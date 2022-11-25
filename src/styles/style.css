@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+text.node-name {
+  font-size: 0.75rem;
+}
+
+#tooltip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.25rem;
+
+  background: linear-gradient(rgb(245, 240, 240), rgb(163, 157, 157));
+}
+
+#tooltip p {
+  font-size: 0.75rem;
+  margin: 0.25rem;
+  text-align: center;
+}

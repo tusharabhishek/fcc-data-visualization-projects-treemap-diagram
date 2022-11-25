@@ -12,7 +12,7 @@ text.node-name {
 }
 
 #tooltip {
-  display: none;
+  visibility: hidden;
   position: absolute;
   left: 0;
   top: 0;

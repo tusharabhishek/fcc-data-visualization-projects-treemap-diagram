@@ -5,5 +5,5 @@ const dataSrc = 'https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_ma
 document.addEventListener('DOMContentLoaded', () => {
   fetch(dataSrc)
     .then(res => res.json())
-    .then(json => createGraph(json, '#graph'));
+    .then(json => createGraph(json, {width: 1280, height: 720 }, '#graph'));
 });
